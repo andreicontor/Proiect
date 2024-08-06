@@ -25,6 +25,10 @@ for medicament in medicamente:
 
 
 
+    
+
+
+
 nr_medicamente = session.query(func.count(Medicament.denumire))
 print(nr_medicamente)
 
