@@ -96,7 +96,7 @@ delete_query = "DELETE FROM client WHERE ID = 5;"
 # if get_id:
 #     delete_id = "DELETE FROM client WHERE ID = 3;"
 #     cursor.execute(delete_id)
-#     conex.commit()
+#     conex.commit()  
 
 # V2
 get_query = "SELECT * FROM client;"
